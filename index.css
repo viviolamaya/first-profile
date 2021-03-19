@@ -1,0 +1,181 @@
+body{
+    margin: 0px;
+    padding:0px;
+} 
+ 
+.header{
+    background-image: url(foto/work3.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 400px;
+    width: 900px;
+    margin:0px auto;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items:center;
+    text-align: center;
+}
+
+.name{
+    flex-direction: column;
+    opacity: 0.7;
+} 
+
+.student{
+    font-size: xxx-large;
+    font-family: Andale Mono, monospace;
+    border-bottom: 1px solid white;
+}
+
+.image img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;    
+}
+
+.sosmed{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    opacity: 0.7;
+}
+
+.bi-instagram:hover{
+    color: #ffc107;
+}
+
+.bi-linkedin:hover{
+    color:#ffc107;
+}
+
+.bi-github:hover{
+    color: #ffc107;
+}
+
+.about-me{
+    width: 900px;
+    margin: 0px auto;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.about{
+    width: 900px;
+    margin: 0px auto 20px;
+    display: flex;
+    padding: 10px 20px 10px;
+    border: 2px solid black;
+    border-style: none solid solid solid;
+}
+
+.me{
+    width: 70%;
+    text-align: justify;
+    padding-right: 30px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 2px solid black;
+}
+
+.all{
+    display: flex;
+    margin-left: 30px;
+}
+
+.text{
+    margin-left: 20px;
+}
+
+.other{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+    padding-top: 10px;
+    width: 900px;
+    border: 2px solid black;
+    border-style: solid solid none solid;
+}
+
+.education{
+    color: black;
+    padding: 2px 20px;   
+}
+
+.year{
+    color: #ffc107
+}
+
+.hobby{
+        color: black;
+        margin-left: 50px;
+        padding: 2px 20px;         
+}
+
+.other h5{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-family: revert;
+    padding: 4px;
+}
+
+.other h5:hover{
+    font-size: x-large;
+}
+
+.last{
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+    margin: 40px auto 0px;
+    background-image: url(foto/work3.jpg);
+    color: blanchedalmond;
+}
+
+.last h5{
+    text-align: center;
+}
+
+.project{
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 35px;
+}
+
+.card{
+    background-color: #ffc107;
+    margin: auto;
+}
+
+#carouselExampleControls{
+    width: 300px;
+    padding-top: 40px;    
+}
+
+.form{
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 35px;
+}
+
+.form-control{
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    border-radius: 0px;
+}
+
+.btn-warning{
+    width: 200px;
+}
